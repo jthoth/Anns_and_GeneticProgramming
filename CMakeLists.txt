@@ -8,5 +8,5 @@ include_directories(lib/googletest-master/googletest/include)
 include_directories(lib/googletest-master/googlemock/include)
 
 
-add_executable(GenneticProgramming main.cpp src/Neuron.h Tests/NeuronTest.cpp)
+add_executable(GenneticProgramming main.cpp src/Neuron.h Tests/LogicGatesTest.cpp src/LogicsGates/And.h src/LogicsGates/And.h  src/LogicsGates/Or.h src/LogicsGates/NAnd.h src/LogicsGates/Not.h)
 target_link_libraries(GenneticProgramming gtest gtest_main)
